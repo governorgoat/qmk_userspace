@@ -20,10 +20,10 @@
 const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
     [0] = LAYOUT( /* Base */
                   KC_BTN1, KC_BTN3, DRAG_SCROLL,
-                  KC_BTN4, LT(1, KC_BTN5)
+                  LT(1, KC_BTN4), KC_BTN2
                   ),
     [1] = LAYOUT(
-                 KC_BTN2, _______, DPI_CONFIG,
-                 _______, _______
+                 _______, _______, DPI_CONFIG,
+                 _______, KC_BTN5
                  )
 };
